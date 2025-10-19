@@ -1,3 +1,6 @@
+## Keymap
+![My keymap](keymap-drawer/cornix.svg)
+
 # ZMK Keyboard for  Cornix
 
 
