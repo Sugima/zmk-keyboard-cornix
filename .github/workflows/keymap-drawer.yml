@@ -1,0 +1,22 @@
+# Example for using the keymap-drawer ZMK user config workflow
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch:  # can be triggered manually
+  push:               # automatically run on changes to following paths
+    paths:
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "keymap_drawer.config.yaml"
+      # - 'boards/*/*/*.keymap'
+      
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: "config/*.keymap"
+      output_folder: "keymap-drawer"  # READMEの参照先と一致
+      config_path: "keymap_drawer.config.yaml"
+      parse_args: ""
+      draw_args: ""
