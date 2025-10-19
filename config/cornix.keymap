@@ -175,7 +175,7 @@
             bindings = <
 &trans  &kp KP_ASTERISK  &kp N7        &kp N8        &kp N9        &kp KP_MINUS                                    &kp GRAVE          &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp KP_SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS                                     &kp SQT            &kp DOLLAR     &kp PERCENT   &kp CARET             &kp PLUS               &trans
-&trans  &kp PERCENT      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT    &trans  &kp LS(LA(LC(LG(DOWN))))  &kp DOUBLE_QUOTES  &kp EXCL       &kp AT        &kp HASH              &kp BACKSLASH          &trans
+&trans  &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT    &trans  &kp LS(LA(LC(LG(DOWN))))  &kp DOUBLE_QUOTES  &kp EXCL       &kp AT        &kp HASH              &kp BACKSLASH          &trans
 &trans  &trans           &kp KP_ENTER  &trans        &trans        &trans                                          &trans             &trans         &trans        &trans                &trans                 &trans
             >;
 
