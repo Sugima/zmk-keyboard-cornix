@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - Hyper+DOWN
   - Gui+W
   - N
   - M
@@ -235,7 +235,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
