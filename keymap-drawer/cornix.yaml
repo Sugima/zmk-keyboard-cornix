@@ -48,7 +48,7 @@ layers:
   - ENTER
   - {t: LANG1, h: Navi}
   - Symbols
-  - '5'
+  - Ctl+Z
   - {t: ESC, h: misc}
   - RIGHT ALT
   Windows:
@@ -83,7 +83,7 @@ layers:
   - '3'
   - KP DOT
   - {t: ▽, type: trans}
-  - Hyper+DOWN
+  - {t: ▽, type: trans}
   - '"'
   - '!'
   - '@'
@@ -241,7 +241,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
