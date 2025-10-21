@@ -43,10 +43,10 @@ layers:
   - Meh+LEFT GUI
   - '5'
   - LEFT GUI
-  - {t: INT MUHENKAN, h: Windows}
+  - {t: LANG2, h: Windows}
   - {t: SPACE, h: LEFT SHIFT}
   - ENTER
-  - {t: INT HENKAN, h: Navi}
+  - {t: LANG1, h: Navi}
   - Symbols
   - Ctl+Z
   - {t: ESC, h: misc}
