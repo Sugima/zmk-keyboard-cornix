@@ -42,8 +42,8 @@ layers:
   - LEFT ALT
   - Meh+LEFT GUI
   - '5'
-  - LEFT GUI
-  - {t: LANG2, h: Windows}
+  - Windows
+  - {t: LANG2, h: LEFT GUI}
   - {t: SPACE, h: LEFT SHIFT}
   - ENTER
   - {t: LANG1, h: Navi}
@@ -93,8 +93,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP ENTER
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
