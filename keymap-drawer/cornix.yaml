@@ -45,9 +45,9 @@ layers:
   - {t: LANG2, h: LEFT GUI}
   - {t: LANG2, h: Num}
   - {t: SPACE, h: LEFT SHIFT}
-  - BACKSPACE
   - ENTER
   - {t: LANG1, h: Navi}
+  - {t: LANG1, h: RIGHT GUI}
   - '5'
   - Ctl+Z
   - {t: ESCAPE, h: Misc}
@@ -148,8 +148,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
