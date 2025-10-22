@@ -9,13 +9,13 @@
 
 // tap windows for ctl alt and gui
 
-#define HM_TAPPING_TERM 250
+#define HM_TAPPING_TERM 200
 #define HM_TAPPING_REPEAT 210
 
 // quick tapping for shift
 
 #define HM_TAPPING_TERM_FAST 200
-#define HM_PRIOR_IDLE 70
+#define HM_PRIOR_IDLE 150
 #define BASE 0
 #define WIN 1
 #define LOWER 2
@@ -41,6 +41,18 @@
     // Activate ADJUST layer by pressing raise and lower
 
     behaviors {
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <HM_TAPPING_TERM>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <HM_PRIOR_IDLE>;
+            hold-trigger-on-release;
+        };
+
         hm_l: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
