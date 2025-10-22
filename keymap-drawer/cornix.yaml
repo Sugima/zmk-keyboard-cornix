@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: LEFT CONTROL, h: A}
+  - {t: A, h: LEFT CONTROL}
   - S
   - D
   - F
@@ -25,7 +25,7 @@ layers:
   - K
   - L
   - '-'
-  - {t: LEFT SHIFT, h: Z}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
