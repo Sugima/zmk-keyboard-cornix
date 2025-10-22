@@ -1,90 +1,91 @@
 layout: {zmk_keyboard: cornix}
 layers:
   Base:
-  - TAB
   - Q
   - W
   - E
   - R
   - T
+  - '='
+  - '`'
   - Y
   - U
   - I
   - O
   - P
-  - BACKSPACE
-  - LEFT CONTROL
-  - A
+  - {t: LEFT CONTROL, h: A}
   - S
   - D
   - F
   - G
+  - ;
+  - ''''
   - H
   - J
   - K
   - L
   - '-'
-  - RCTRL
-  - LEFT SHIFT
-  - Z
+  - {t: LEFT SHIFT, h: Z}
   - X
   - C
   - V
   - B
+  - '['
   - Hyper+DOWN
   - Gui+W
+  - ']'
   - N
   - M
   - ','
   - .
   - /
-  - RIGHT SHIFT
+  - TAB
   - LEFT ALT
-  - Meh+LEFT GUI
-  - '5'
-  - Windows
+  - Function
   - {t: LANG2, h: LEFT GUI}
+  - {t: LANG2, h: Num}
   - {t: SPACE, h: LEFT SHIFT}
+  - BACKSPACE
   - ENTER
   - {t: LANG1, h: Navi}
-  - Symbols
+  - '5'
   - Ctl+Z
-  - {t: ESC, h: misc}
-  - RIGHT ALT
-  Windows:
-  - {t: ▽, type: trans}
-  - KP ASTERISK
+  - {t: ESCAPE, h: Misc}
+  Num:
+  - KP MULTIPLY
   - '7'
   - '8'
   - '9'
   - KP MINUS
-  - '`'
+  - ''
+  - ''
+  - ''
   - '&'
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - KP SLASH
   - '4'
   - '5'
   - '6'
   - KP PLUS
-  - ''''
+  - ''
+  - ''
+  - ''
   - $
   - '%'
   - ^
   - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
   - '1'
   - '2'
   - '3'
   - KP DOT
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
+  - ''
+  - ''
   - '!'
   - '@'
   - '#'
@@ -92,9 +93,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP ENTER
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -103,36 +103,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Navi:
-  - {t: ▽, type: trans}
   - '~'
-  - '|'
+  - '`'
+  - ''''
+  - '"'
   - ''
-  - '['
-  - ']'
+  - ''
+  - ''
   - ''
   - HOME
   - UP ARROW
   - END
-  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ':'
+  - '|'
+  - \
   - ;
+  - ':'
+  - ''
+  - ''
+  - ''
   - BACKSPACE
   - LEFT
   - DOWN
   - RIGHT
   - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
   - '{'
   - '}'
+  - '['
+  - ']'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -140,6 +140,7 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,65 +153,64 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Symbols:
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  Function:
   - F12
   - F7
   - F8
   - F9
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: BT, h: '1'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - F11
   - F4
   - F5
   - F6
   - ''
-  - {t: ▽, type: trans}
-  - {t: BT, h: '2'}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - F10
   - F1
   - F2
   - F3
   - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  misc:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Misc:
   - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+Gui+4
-  - PLAY PAUSE
+  - Sft+Gui+5
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,10 +219,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '1'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - PREV
   - NEXT
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -241,7 +241,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Hyper+\
+  - {t: ▽, type: trans}
+  - Meh+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,7 +255,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -296,13 +296,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
