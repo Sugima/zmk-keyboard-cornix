@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - ''
   - LEFT CONTROL
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - '-'
-  - ENTER
+  - ''
   - LEFT SHIFT
   - Z
   - X
@@ -38,7 +38,7 @@ layers:
   - ','
   - .
   - /
-  - RIGHT SHIFT
+  - ''
   - LEFT ALT
   - Meh+LEFT GUI
   - Function
@@ -50,7 +50,7 @@ layers:
   - {t: LANG1, h: RIGHT GUI}
   - Ctl+Z
   - {t: ESC, h: Misc}
-  - RIGHT ALT
+  - ''
   Num:
   - {t: ▽, type: trans}
   - ''
