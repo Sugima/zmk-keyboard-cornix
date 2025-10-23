@@ -1,46 +1,46 @@
 layout: {zmk_keyboard: cornix}
 layers:
   Base:
+  - TAB
   - Q
   - W
   - E
   - R
   - T
-  - '='
-  - '`'
   - Y
   - U
   - I
   - O
   - P
-  - {t: A, h: LEFT CONTROL}
+  - BACKSPACE
+  - LEFT CONTROL
+  - A
   - S
   - D
   - F
   - G
-  - ;
-  - ''''
   - H
   - J
   - K
   - L
   - '-'
-  - {t: Z, h: LEFT SHIFT}
+  - ENTER
+  - LEFT SHIFT
+  - Z
   - X
   - C
   - V
   - B
-  - '['
   - Hyper+DOWN
   - Gui+W
-  - ']'
   - N
   - M
   - ','
   - .
   - /
-  - TAB
+  - RIGHT SHIFT
   - LEFT ALT
+  - Meh+LEFT GUI
   - Function
   - {t: LANG2, h: LEFT GUI}
   - {t: LANG2, h: Num}
@@ -48,48 +48,48 @@ layers:
   - ENTER
   - {t: LANG1, h: Navi}
   - {t: LANG1, h: RIGHT GUI}
-  - Function
   - Ctl+Z
-  - {t: ESCAPE, h: Misc}
+  - {t: ESC, h: Misc}
+  - RIGHT ALT
   Num:
   - {t: ▽, type: trans}
+  - ''
   - '&'
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP MULTIPLY
+  - '*'
   - '7'
   - '8'
   - '9'
-  - KP MINUS
+  - +
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - $
   - '%'
   - ^
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP SLASH
+  - /
   - '4'
   - '5'
   - '6'
-  - KP PLUS
+  - '-'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - '!'
   - '@'
   - '#'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
   - '1'
   - '2'
   - '3'
-  - \
+  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,43 +104,43 @@ layers:
   - {t: ▽, type: trans}
   Navi:
   - {t: ▽, type: trans}
+  - ''
   - '~'
   - '`'
   - '"'
   - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - HOME
   - UP ARROW
   - END
   - ''
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - '|'
   - \
   - ':'
   - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BACKSPACE
   - LEFT
   - DOWN
   - RIGHT
   - DEL
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - '{'
   - '}'
   - '['
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,32 +159,31 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - F12
   - F7
   - F8
   - F9
   - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - F11
   - F4
   - F5
   - F6
   - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F10
@@ -192,6 +191,7 @@ layers:
   - F2
   - F3
   - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -208,35 +208,34 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
+  - ''
   - Sft+Gui+4
   - Sft+Gui+5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - ''
   - PREV
   - NEXT
   - PLAY PAUSE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - ''
   - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - MUTE
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: BT, h: '0'}
@@ -255,3 +254,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
