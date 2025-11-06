@@ -164,10 +164,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB           &kp Q                     &kp W  &kp E               &kp R        &kp T                                                      &kp Y      &kp U        &kp I                &kp O      &kp P      &none
-&kp LEFT_CONTROL  &kp A                     &kp S  &kp D               &kp F        &kp G                                                      &kp H      &kp J        &kp K                &kp L      &kp MINUS  &none
-&kp LEFT_SHIFT    &kp Z                     &kp X  &kp C               &kp V        &kp B                 &kp LS(LA(LC(LG(DOWN))))  &kp LG(W)  &kp N      &kp M        &kp COMMA            &kp DOT    &kp FSLH   &none
-&kp LEFT_ALT      &kp LS(LA(LC(LEFT_GUI)))  &mo 3  &mt LEFT_GUI LANG2  &lt 1 LANG2  &mt LEFT_SHIFT SPACE                                       &kp ENTER  &lt 2 LANG1  &mt RIGHT_GUI LANG1  &kp LC(Z)  &lt 4 ESC  &none
+&kp TAB           &kp Q                     &kp W  &kp E               &kp R        &kp T                                                      &kp Y      &kp U        &kp I        &kp O      &kp P      &none
+&kp LEFT_CONTROL  &mt LEFT_CONTROL A        &kp S  &kp D               &kp F        &kp G                                                      &kp H      &kp J        &kp K        &kp L      &kp MINUS  &none
+&kp LEFT_SHIFT    &mt LEFT_SHIFT Z          &kp X  &kp C               &kp V        &kp B                 &kp LS(LA(LC(LG(DOWN))))  &kp LG(W)  &kp N      &kp M        &kp COMMA    &kp DOT    &kp FSLH   &none
+&kp LEFT_ALT      &kp LS(LC(LA(LEFT_GUI)))  &mo 3  &mt LEFT_GUI LANG2  &lt 1 LANG2  &mt LEFT_SHIFT SPACE                                       &kp ENTER  &lt 2 LANG1  &lt 2 LANG1  &kp LC(Z)  &lt 4 ESC  &none
             >;
 
             sensor-bindings =
@@ -186,20 +186,20 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans  &none   &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
-&trans  &none   &kp DOLLAR       &kp PERCENT   &kp CARET             &none                                  &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &trans
-&trans  &none   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &none                  &trans  &trans  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
-&trans  &trans  &trans           &trans        &trans                &trans                                 &trans        &trans        &trans        &trans        &trans     &trans
+&trans  &kp TAB           &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
+&trans  &kp LEFT_CONTROL  &kp DOLLAR       &kp PERCENT   &kp CARET             &none                                  &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &trans
+&trans  &kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &none                  &trans  &trans  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
+&trans  &trans            &trans           &trans        &trans                &trans                                 &trans        &trans        &trans        &trans        &trans     &trans
             >;
         };
 
         Navi_layer {
             display-name = "Navi";
             bindings = <
-&trans  &none   &kp TILDE       &kp GRAVE        &kp DOUBLE_QUOTES  &kp SQT                            &none          &kp HOME  &kp UP_ARROW  &kp END    &none    &trans
-&trans  &none   &kp PIPE        &kp BACKSLASH    &kp COLON          &kp SEMI                           &kp BACKSPACE  &kp LEFT  &kp DOWN      &kp RIGHT  &kp DEL  &trans
-&trans  &none   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &trans  &trans  &none          &none     &none         &none      &none    &trans
-&trans  &trans  &trans          &trans           &trans             &trans                             &trans         &trans    &trans        &trans     &trans   &trans
+&trans  &kp TAB           &kp TILDE       &kp GRAVE        &kp DOUBLE_QUOTES  &kp SQT                            &none          &kp HOME  &kp UP_ARROW  &kp END    &none    &trans
+&trans  &kp LEFT_CONTROL  &kp PIPE        &kp BACKSLASH    &kp COLON          &kp SEMI                           &kp BACKSPACE  &kp LEFT  &kp DOWN      &kp RIGHT  &kp DEL  &trans
+&trans  &kp LEFT_SHIFT    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &trans  &trans  &none          &none     &none         &none      &none    &trans
+&trans  &trans            &trans          &trans           &trans             &trans                             &trans         &trans    &trans        &trans     &trans   &trans
             >;
         };
 
