@@ -14,7 +14,7 @@ layers:
   - P
   - ''
   - LEFT CONTROL
-  - A
+  - {t: A, h: LEFT CONTROL}
   - S
   - D
   - F
@@ -26,7 +26,7 @@ layers:
   - '-'
   - ''
   - LEFT SHIFT
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -47,13 +47,13 @@ layers:
   - {t: SPACE, h: LEFT SHIFT}
   - ENTER
   - {t: LANG1, h: Navi}
-  - {t: LANG1, h: RIGHT GUI}
+  - {t: LANG1, h: Navi}
   - Ctl+Z
   - {t: ESC, h: Misc}
   - ''
   Num:
   - {t: ▽, type: trans}
-  - ''
+  - TAB
   - '&'
   - '*'
   - (
@@ -65,7 +65,7 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - LEFT CONTROL
   - $
   - '%'
   - ^
@@ -77,7 +77,7 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - LEFT SHIFT
   - '!'
   - '@'
   - '#'
@@ -104,7 +104,7 @@ layers:
   - {t: ▽, type: trans}
   Navi:
   - {t: ▽, type: trans}
-  - ''
+  - TAB
   - '~'
   - '`'
   - '"'
@@ -116,7 +116,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - LEFT CONTROL
   - '|'
   - \
   - ':'
@@ -128,7 +128,7 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - LEFT SHIFT
   - '{'
   - '}'
   - '['
